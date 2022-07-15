@@ -1,0 +1,1 @@
+/usr/bin/clang++ -fPIC -g -shared -Wl,-soname,libCore.so -o libCore.so CMakeFiles/Core.dir/src/glad.c.o CMakeFiles/Core.dir/Renderer.cpp.o CMakeFiles/Core.dir/src/Renderer_src.cpp.o  ../_deps/glfw-build/src/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl /usr/lib/x86_64-linux-gnu/libX11.so 

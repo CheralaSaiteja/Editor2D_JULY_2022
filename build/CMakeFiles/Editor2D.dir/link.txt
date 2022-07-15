@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -rdynamic CMakeFiles/Editor2D.dir/main.cpp.o -o ../Editor2D  -Wl,-rpath,/home/teja/Desktop/Editor2D/build/Core Core/libCore.so _deps/glfw-build/src/libglfw3.a -Wl,-Bstatic -lrt -Wl,-Bdynamic -lm -ldl -lX11 
